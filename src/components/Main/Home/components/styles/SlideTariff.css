@@ -1,0 +1,135 @@
+.slide-tariff {
+    display: flex;
+    flex-direction: column;
+    width: 415px;
+    height: 540px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px var(--color-black-20);
+    @media (orientation: portrait) {
+        width: 335px;
+        height: 512px;
+    }
+}
+
+.slide-tariff:hover {
+    box-shadow: 0px 0px 20px 0px var(--color-black-40);
+}
+
+.tariff-button {
+    font-family: "inter";
+    font-size: 20px;
+    width: 355px;
+    height: 59px;
+    background: var(--color-secondary-3);
+    border-radius: 10px;
+    margin: auto auto 24px;
+    color: var(--color-white);
+    @media (orientation: portrait) {
+        width: 286px;
+        height: 59px;
+        margin: auto auto 30px;
+    }
+}
+
+.tariff-button:hover {
+    background: var(--color-secondary-1);
+}
+
+.picked-tariff-button {
+    background: var(--color-gray);
+    color: var(--color-black);
+}
+
+.picked-tariff-button:hover {
+    background: var(--color-secondary-2);
+}
+
+.slide-tariff h3 {
+    margin-bottom: 10px;
+    @media (orientation: portrait) {
+        margin-bottom: 22px;
+    }
+}
+
+.tariff-title {
+    height: 132px;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 0 0;
+}
+
+.tariff-title-content {
+    padding-top: 30px;
+    padding-left: 30px;
+    @media (orientation: portrait) {
+        padding: 30px 24px;
+    }
+}
+
+h3 s {
+    margin-left: 19px;
+    font-size: 25px;
+    color: var(--color-black-50);
+}
+
+.tarrif-content {
+    padding-left: 30px;
+    padding-right: 10px;
+    @media (orientation: portrait) {
+        padding: 20px 24px;
+    }
+}
+
+.current-tariff{
+    width: max-content;
+    margin: 12px 0 0 auto;
+    padding: 3px 13px;
+    border-radius: 10px;
+    background: #3BA5E0;
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.tarrif-content h3 {
+    @media (orientation: portrait) {
+        margin-bottom: 10px;
+    }
+}
+
+.tariff-includes {
+    margin-top: 59px;
+    @media (orientation: portrait) {
+        margin-top: 33px;
+        font-size: 16px;
+    }
+}
+
+.tariff-includes ul {
+    margin: 0;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.tariff-includes li {
+    padding-left: 20px;
+    background-image: url("../../../../../media/resources/li-element.png");
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+    background-size: 20px 20px;
+    @media (orientation: portrait) {
+        background-size: 16px 20px;
+    }
+}
+
+.tariff-includes li:nth-child(2n) {
+    margin: 5px 0;
+}
+
+.tariff-includes h4 {
+    margin-bottom: 10px;
+}
+
+.tariff-includes p {
+    @media (orientation: portrait) {
+        font-size: 16px;
+    }
+}

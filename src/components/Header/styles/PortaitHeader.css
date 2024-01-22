@@ -1,0 +1,34 @@
+.portait-header {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 375px;
+    height: 491px;
+    background: var(--color-primary);
+    z-index: 1000;
+}
+
+.portait-header-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 93px;
+    padding: 0 26px 0 14px;
+}
+
+.close-portait-header {
+    width: 25px;
+    height: 25px;
+    background-image: url("../../../media/resources/close-header.svg");
+    background-color: #0000;
+    border-radius: 0;
+}
+
+.portait-header-content a {
+    color: var(--color-white);
+}
+
+.portait-header-account {
+    margin-bottom: 20px;
+}

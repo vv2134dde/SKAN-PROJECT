@@ -1,0 +1,29 @@
+.whyus {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 109px;
+    @media (orientation: portrait) {
+        width: 361px;
+        margin-top: 55px;
+    }
+}
+
+.whyus-title {
+    align-self: start;
+    @media (orientation: portrait) {
+        width: 220px;        
+    }
+}
+
+.whyus-slides {
+    display: flex;
+    align-items: center;
+    height: 365px;
+    @media (orientation: portrait) {
+        height: 289px;      
+    }
+}
+

@@ -1,0 +1,56 @@
+.home-title {    
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    @media (orientation: portrait) {
+        width: 361px;
+    }
+}
+
+.home-title-content {
+    background-image: url("../../../../../media/resources/home-title.png");
+    background-size: 629px 593px;
+    background-repeat: no-repeat;
+    background-position: top 24px right;
+    @media (orientation: portrait) {
+        height: 680px;
+        background-position: bottom;
+        background-size: 347px 327px;
+    }
+}
+
+.home-title-content h1 {
+    width: 743px;
+    padding-top: 45px;
+    @media (orientation: portrait) {
+        width: 361px;
+        word-wrap: wrap;
+        padding-top: 0px;
+    }
+}
+
+.home-title-content p {
+    width: 534px;
+    margin-top: 20px;
+    font-size: 20px;
+    @media (orientation: portrait) {
+        width: 361px;
+        font-size: 18px;
+        word-wrap: wrap;
+        margin-left: 14px;
+    }
+}
+
+.home-title-content button {
+    width: 335px;
+    height: 59px;
+    font-size: 22px;
+    margin-top: 70px;
+    @media (orientation: portrait) {
+        margin-top: 32px;
+    }
+}
+
+.home-title-content button:hover {
+    background: var(--color-secondary-1);
+}

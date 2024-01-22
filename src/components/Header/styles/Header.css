@@ -1,0 +1,40 @@
+header {
+    justify-content: space-around;
+    font-family: "Inter";
+    width: 1440px;
+    height: 93px;
+    font-size: 14px;
+    margin: auto;
+    overflow: hidden;
+    @media (orientation: portrait) {
+        width: 375px;
+    }
+}
+
+.header-content {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1.25fr 1fr;
+    padding: 0 60px;
+    @media (orientation: portrait) {
+        grid-template-columns: 2.5fr 2.5fr 1fr;
+        align-items: start;
+        padding: 0 26px 0 14px;
+    }
+}
+
+.open-portait-header {
+    width: 30px;
+    height: 25px;
+    margin: auto 0 auto auto;
+    background-image: url("../../../media/resources/open-header.svg");
+    background-color: #0000;
+    border-radius: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    height: 93px;
+
+}

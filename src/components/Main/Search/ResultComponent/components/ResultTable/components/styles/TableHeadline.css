@@ -1,0 +1,28 @@
+.main-result-content-table-container-headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 144px;
+    padding: 5px 28px;
+    background-color: var(--color-primary);
+    @media (orientation: portrait) {
+        display: grid;
+        grid-template-columns: 3fr 2fr 2fr;
+        align-items: center;
+        margin: 0 auto;
+        height: 75px;
+        padding: 0px;
+    }
+}
+
+.main-result-content-table-container-headline p {
+    color: var(--color-white);
+    font-family: "Inter-Medium";
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    @media (orientation: portrait) {
+        font-size: 18px;
+        letter-spacing: 0.18px;
+        text-align: center
+    }
+}

@@ -1,0 +1,44 @@
+.account-panel-auth-info {
+    display: flex;
+    align-items: center;
+    @media (orientation: portrait) {
+        flex-direction: column-reverse;
+    }
+}
+
+.user {
+    text-align: right;
+    padding-right: 2px;
+    @media (orientation: portrait) {
+        text-align: center;
+    }
+}
+
+.user div:last-child {
+    cursor: pointer;
+    font-size: 10px;
+    color: var(--color-black-40);
+    @media (orientation: portrait) {
+        font-size: 16px;
+        color: var(--color-white-40);
+    }
+}
+
+.avatar img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    @media (orientation: portrait) {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media (orientation: portrait) {
+    .user div:first-child {
+        font-family: "Inter-Medium";
+        font-size: 16px;
+        color: var(--color-white);
+        margin: 5px 0;
+    }
+}

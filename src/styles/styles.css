@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "FERRY";
+    src: url("../media/font/2717-font.otf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../media/font/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../media/font/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Inter-Medium";
+    src: url("../media/font/Inter-Medium.ttf");
+}
+
+html, header, body {
+    font-family: "Inter";
+    padding: 0px;
+    margin: 0px;
+    font-size: 32px;
+    --color-primary: #029491;
+    --color-secondary-1: #FFB64F;
+    --color-secondary-2: #7CE3E1;
+    --color-secondary-3: #5970FF;
+    --color-secondary-3-1: #5970FF80;
+    --color-white: #FFF;
+    --color-white-40: #FFFFFF66;
+    --color-black: #000;
+    --color-black-5: #0000000d;
+    --color-black-20: #00000033;
+    --color-black-40: #00000066;
+    --color-black-50: #00000080;
+    --color-gray: #D9D9D9;
+    --color-gray-30: #D9D9D94D;
+    --color-gray2: #C7C7C7;
+    --color-gray3: #949494;
+    --color-green: #8AC540;
+    --color-red: #FF5959;
+}
+
+div {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    cursor: pointer;  
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+h1 {
+    margin: 0;
+}
+
+input, select {
+    outline: none;
+}
+
+.logo {
+    position: relative;
+    width: 141px;
+    height: 141px;
+    background-image: url("../media/resources/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media (orientation: portrait) {
+        width: 111px;
+        height: 111px;
+    }
+}
+
+.logo-alt {
+    background-image: url("../media/resources/logo-alt.png");
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+input.invalid {
+    border-color: var(--color-red);
+    box-shadow: 0px 0px 20px 0px rgba(255, 89, 89, 0.20);
+    color: var(--color-red);
+}
+
+input.invalid::placeholder {
+    color: var(--color-red);
+}
+
+span.invalid {
+    color: var(--color-red);    
+}
+
+button {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter-Medium";
+    color: var(--color-white);
+    background: var(--color-secondary-3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-active {
+    background: var(--color-secondary-3);
+}
+
+.button-inactive {
+    cursor: default;
+    background: var(--color-secondary-3-1);
+}

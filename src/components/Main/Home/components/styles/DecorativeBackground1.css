@@ -1,0 +1,12 @@
+.decorative-background-1 {
+    width: 1320px;
+    height: 575px;
+    margin: 0 auto;
+    background-image: url("../../../../../media/resources/back1.svg");
+    background-repeat: no-repeat;
+    @media (orientation: portrait) {
+        width: 361px;
+        height: 361px;
+        background-size: 813px;
+    }
+}

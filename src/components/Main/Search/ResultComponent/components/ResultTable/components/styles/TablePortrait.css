@@ -1,0 +1,33 @@
+.main-result-content-table-container-portrait {
+    width: 298px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 0px var(--color-black-20);
+}
+
+.main-result-content-table-container-portrait:hover {
+    box-shadow: 0px 0px 20px 0px var(--color-black-40);
+}
+
+.main-result-content-table-container-portrait-content {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    align-items: center;
+    margin: 0 auto;
+    width: 298px;
+    padding: 0px;
+    height: 75px;
+}
+
+.main-result-content-table-container-portrait-content span {
+    text-align: center;
+    color: var(--color-black);
+    font-size: 18px;
+    letter-spacing: 0.18px;
+}
+
+.main-result-content-table-container-portrait-content-loading {
+    grid-column: 1 / 4;
+    margin: 0 auto;
+}

@@ -1,0 +1,28 @@
+.home-tariff {
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 107px;
+    @media (orientation: portrait) {
+        width: 361px;
+        margin-top: 70px;
+    }
+}
+
+.home-tariff-slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 710px;
+    @media (orientation: portrait) {
+        flex-direction: column;
+        height: auto;
+        margin-top: 37px;
+    }
+}
+
+
+@media (orientation: portrait) {
+    .home-tariff-slider .slide-tariff:nth-child(2n) {
+        margin: 40px 0;
+    }
+}

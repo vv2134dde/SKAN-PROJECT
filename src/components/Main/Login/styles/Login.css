@@ -1,0 +1,214 @@
+.main-login {
+    width: 1440px;
+    padding: 69px 0 80px;
+    margin: 0 auto;
+    @media (orientation: portrait) {
+        width: 335px;
+    }
+}
+
+.main-login-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1239px;
+    height: 523px;
+    margin: 0 141px 0 60px;
+    background-image: url("../../../../media/resources/login-characters.svg");
+    background-repeat: no-repeat;
+    background-position: left 112px bottom 23px;
+    background-size: 322px 342px;
+    @media (orientation: portrait) {
+        flex-direction: column;
+        justify-content: start;
+        width: 335px;
+        height: 1195px;
+        margin: 31px 0 80px 0;
+        background-position: bottom;
+        background-size: 335px 356px;
+    }
+}
+
+.login-lock {
+    position: absolute;
+    margin: -55px 0 0 -51px;
+    z-index: 100;
+    @media (orientation: portrait) {
+        width: 75px;
+        height: 92px;
+        margin: -81px 0 0 81px;
+    }
+}
+
+.login-title h1 {
+    width: 750px;
+    margin: 0;
+    font-family: "FERRY";
+    font-size: 40px;
+    letter-spacing: 0.8px;
+    @media (orientation: portrait) {
+        width: 290px;
+        font-size: 22px;
+        letter-spacing: 0.44px;
+    }
+}
+
+.login-container {
+    position: relative;
+    width: 429px;
+    height: 523px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px var(--color-black-20);
+    @media (orientation: portrait) {
+        width: 335px;
+        height: 504px;
+        margin: 126px 0 0;
+    }
+}
+
+.login-container-header {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 52px;
+}
+
+.login-container-header button {
+    font-family: "Inter";
+    font-size: 16px;
+    padding: 8px 0;
+    background: none;
+    border-bottom: 2px solid;
+    border-radius: 0;
+    @media (orientation: portrait) {
+        font-size: 14px;
+    }
+}
+
+.login-container-header button:first-child {
+    padding: 0 51px;
+    color: var(--color-primary);
+    border-color:  var(--color-primary);
+    @media (orientation: portrait) {
+        padding: 0 30px;
+    }
+
+}
+
+.login-container-header button:last-child {
+    margin-left: 15px;
+    padding: 0 22px;
+    color: var(--color-gray2);
+    border-color:  var(--color-gray2);
+    @media (orientation: portrait) {
+        padding: 0 17px;
+        margin-left: 20px;
+    }
+}
+
+.login-container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 25px;
+    @media (orientation: portrait) {
+        margin: 20px 15px;
+    }
+}
+
+.login-container-main p {
+    width: 100%;
+    color: #949494;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    margin: 20px 0 15px 0;
+    letter-spacing: 0.16px;
+    @media (orientation: portrait) {
+        font-size: 14px;
+    }
+}
+
+.login-container-main a {
+    margin-top: 15px;
+    color: var(--color-secondary-3);
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    text-decoration-line: underline;
+}
+
+.login-container-main button {
+    width: 379px;
+    height: 59px;
+    margin-top: 7px;
+    border-radius: 5px;
+    font-family: "Inter-Medium";
+    color: var(--color-white);
+    font-size: 22px;
+    letter-spacing: 0.44px;
+    @media (orientation: portrait) {
+        width: 305px;
+        margin-top: 14px;
+    }
+}
+
+.login-input-username {
+    width: 343px;
+    height: 41px;
+    padding: 0 17px;
+    border-radius: 5px;
+    border: 1px solid var(--color-gray2);
+    box-shadow: 0px 0px 20px 0px var(--color-black-5);
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    @media (orientation: portrait) {
+        width: 271px;
+    }
+}
+
+.login-input-password {
+    width: 343px;
+    height: 41px;
+    padding: 0 17px;
+    border-radius: 5px;
+    border: 1px solid var(--color-gray2);
+    box-shadow: 0px 0px 20px 0px var(--color-black-5);
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    @media (orientation: portrait) {
+        width: 271px;
+    }
+}
+
+.oauth {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.oauth p {
+    margin: 0;
+}
+
+.oauth-list {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.oauth-list-img {
+    cursor: pointer;
+    @media (orientation: portrait) {
+    width: 96px;
+    }
+}
+.oauth-list-img:nth-child(2n) {
+    padding: 0 10px;
+    @media (orientation: portrait) {
+        padding: 0 8px;
+    }
+}
+
+p.password-error {
+    font-size: 14px;
+    margin: 8px 0 0;
+    text-align: center;
+    color: var(--color-red);
+}

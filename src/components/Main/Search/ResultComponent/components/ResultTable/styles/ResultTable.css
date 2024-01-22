@@ -1,0 +1,93 @@
+.main-result-content-table {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-top: 20px;
+    @media (orientation: portrait) {
+        gap: 10px;
+        margin-top: 0;
+    }
+}
+
+.main-result-content-table span {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--color-gray3);
+    font-size: 18px;
+    letter-spacing: 0.36px;
+}
+
+.main-result-content-table-container {
+    width: 1260px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 3px var(--color-primary) solid;
+    @media (orientation: portrait) {
+        flex-direction: column;
+        width: 294px;
+    }
+}
+
+.flex-center-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading {
+    height: 50px;
+    width: 50px;
+    margin-top: -10px;
+    margin-bottom: 11px;
+    background-image: url("../../../../../../../media/resources/loading.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 50px 50px;
+    animation: 1s linear 0s normal none infinite running spinner;
+    -webkit-animation: 1s linear 0s normal none infinite running spinner;
+    @media (orientation: portrait) {
+        height: 36px;
+        width: 36px;
+        margin: 0;
+        background-size: 36px 36px;
+    }
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.chevron {
+    width: 39px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (orientation: portrait) {
+        width: 20px;
+        background-position: center bottom 18px;
+    };
+}
+
+.chevron-left {
+    background-image: url("../../../../../../../media/resources/Chevron-left.svg");
+}
+
+.chevron-right {
+    background-image: url("../../../../../../../media/resources/Chevron-right.svg");
+}
+
+.chevron-active-right {
+    background-image: url("../../../../../../../media/resources/Chevron-right-active.png");
+}
+
+.chevron-active-left {
+    background-image: url("../../../../../../../media/resources/Chevron-left-active.png");
+}

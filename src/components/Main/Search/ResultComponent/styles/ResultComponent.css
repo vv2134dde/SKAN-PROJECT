@@ -1,0 +1,92 @@
+.main-result {
+    width: 1440px;
+    margin: 25px auto 0;
+    @media (orientation: portrait) {
+        width: 375px;
+        background-size: 350px 234px;
+        background-position: top;
+    }
+}
+
+.main-result h1 {
+    width: 515px;
+    padding-top: 44px;
+    font-family: Ferry;
+    font-size: 40px;
+    letter-spacing: 2px;
+    @media (orientation: portrait) {
+        width: 100%;
+        padding-top: 0;
+        font-size: 28px;
+        letter-spacing: 0.28px;
+    }
+}
+
+.main-result h2 {
+    font-family: Ferry;
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    @media (orientation: portrait) {
+        font-size: 28px;
+        letter-spacing: 0.28px;
+    }
+}
+
+.main-result h1 span {
+    letter-spacing: 1.6px;
+}
+
+.main-result-content {
+    display: flex;
+    flex-direction: column;
+    gap: 107px;
+    margin: 0 60px;
+    @media (orientation: portrait) {
+        gap: 59px;
+        margin: 0 15px;
+    }
+}
+
+.main-result-content-title {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    @media (orientation: portrait) {
+        gap: 21px;
+    }
+}
+
+.main-result-content-title p {
+    width: 447px;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    @media (orientation: portrait) {
+        width: 100%;
+        font-size: 17px;
+        letter-spacing: 0.18px;
+    }
+}
+
+.main-result-content-title p span {
+    letter-spacing: 0.2px;
+    @media (orientation: portrait) {
+        letter-spacing: 0.18px;
+    }
+}
+
+.main-result-content-img {
+    position: absolute;
+    margin-left: 724px;
+    width: 552px;
+    height: 369px;
+    background-image: url("../../../../../media/resources/result-bg.svg");
+    background-repeat: no-repeat;
+    @media (orientation: portrait) {
+        position: static;
+        width: 350px;
+        height: 234px;
+        background-size: 350px 234px;
+        margin: 0;
+    }
+}

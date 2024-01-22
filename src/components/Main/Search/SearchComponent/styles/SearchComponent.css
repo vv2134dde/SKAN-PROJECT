@@ -1,0 +1,113 @@
+.main-search {
+    width: 1440px;
+    margin: 0 auto;
+    background-image: 
+    url("../../../../../media/resources/serch-bg-document.svg"),
+    url("../../../../../media/resources/search-bg-folders.svg"),
+    url("../../../../../media/resources/search-bg.svg");
+    background-repeat: no-repeat;
+    background-position: 
+    top 132px right 411px,
+    top 150px right 104px,
+    top 351px left 1005px;
+    @media (orientation: portrait) {
+        width: 375px;
+        height: 1411px;
+        background-position: 
+        top 117px right 32px,
+        0,
+        bottom 24px left 36px;
+        background-size:
+        58px 71px,
+        0,
+        379px 403px
+    }
+}
+
+.main-search-content {
+    padding: 70px 45px 65px 60px;
+    @media (orientation: portrait) {
+        padding: 20px 0 24px;
+    }
+}
+
+.main-search-content h1 {
+    width: 817px;
+    color: var(--color-black);
+    font-family: Ferry;
+    font-size: 40px;
+    letter-spacing: 1.2px;
+    @media (orientation: portrait) {
+        width: auto;
+        font-size: 28px;
+        letter-spacing: 0.28px;
+    }
+}
+
+.main-search-content p {
+    width: 493px;
+    margin-top: 25px;
+    color: var(--color-black);
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    @media (orientation: portrait) {
+        width: 297px;
+        font-size: 18px;
+    }
+}
+
+.main-search-content-search {
+    display: grid;
+    grid-template-columns: 427px 445px;
+    grid-template-rows: 383px 160px;
+    padding-left: 44px;
+    margin-top: 47px;
+    width: 872px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px var(--color-black-20);
+    @media (orientation: portrait) {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 688px;
+        padding-left: 14px;
+        margin-top: 32px;
+    }
+}
+
+.main-search-content-search p {
+    margin: 0;
+    color: var(--color-black);
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    @media (orientation: portrait) {
+        letter-spacing: 0.36px;
+        width: auto;
+    }
+}
+
+.main-search-content-search span {
+    vertical-align: 3px;
+    font-size: 25px;
+    letter-spacing: 0.75px;
+    @media (orientation: portrait) {
+        letter-spacing: 0.5px;
+    }
+}
+
+.main-search-content-search-input {
+    padding: 0 17px;
+    border-radius: 5px;
+    border: 1px solid var(--color-gray2);
+    box-shadow: 0px 0px 20px 0px var(--color-black-5);
+}
+
+.main-search-content-search-input::placeholder {
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    text-align: center;
+    color: var(--color-gray3);
+    @media (orientation: portrait) {
+        letter-spacing: 0.28px;
+    }
+}
